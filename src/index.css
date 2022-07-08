@@ -12,3 +12,41 @@ code {
     monospace;
 }
 
+.loginFrom-wrapper{
+  height:100vh;
+  /* display:flex;
+  justify-content: center;
+  align-items:center; */
+  background: #a29bfe;
+  margin: 0;
+  padding: 50px;
+  text-align: center;
+
+  
+}
+.loginFrom-wrapper h1{
+  color:#fff;
+  margin-bottom:30px;
+}
+.loginFrom-inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+input{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.jfss-btn{
+  color:#a29bfe;
+  background: #fff;
+  padding: 8px 30px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  margin:30px 0;
+}
